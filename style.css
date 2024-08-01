@@ -5,8 +5,9 @@
     background-image: url(https://stories.uq.edu.au/research/2022/coffee-is-going-extinct/assets/wUb2t9rgAD/uq-research-coffee-cup-2560x1440.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
-    height: 730px;
+    height: 800px;
 }
+
 .intro_head{
     margin-top: 200px;
     margin-bottom: 20px;
@@ -26,21 +27,18 @@
 }
 .intro_link{
     text-decoration: none;
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    /* color: black; */
     margin-left: 40px;
-    padding: 10px;
-    /* margin-top: px; */
-    border-radius: 5px;
-    /* padding-bottom: 10px; */
-    
-
+    /* padding: 10px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;    
 
 }
-.intro_link:hover{
-    background-color: red;
-    
-}
+
 /* #left{
     background-color:white;
     border: 5px solid black;
@@ -84,6 +82,9 @@ border-radius: 0%;
 .card{
     margin: auto;
 }
+#offer{
+    margin-bottom: 100px;
+}
 #offer>h1{
     text-align: center;
     margin-bottom: 50px;
@@ -93,6 +94,23 @@ border-radius: 0%;
     background-color: blueviolet;
     border-radius: 5px;
     
+}
+#btn{
+    text-align: center;
+    
+}
+#btn>a{
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#ria:hover{
+    background-color: red;
 }
 /* #next:visited{
     background-color:rgb(40, 40, 40) ;
