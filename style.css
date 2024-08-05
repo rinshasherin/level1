@@ -115,3 +115,38 @@ border-radius: 0%;
 /* #next:visited{
     background-color:rgb(40, 40, 40) ;
 } */
+
+#button>a{
+    border: 1px solid red;
+    color: red;
+
+}
+#button>a:hover{
+    border: 1px solid rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+}
+
+input::placeholder {
+    /* font-weight: bold; */
+    /* opacity: 1; */
+    color: red;
+    font-size: large;
+    
+}
+textarea::placeholder {
+    /* font-weight: bold; */
+    /* opacity: .1; */
+    /* margin-top: -50px; */
+    color: red;
+    font-size: large;
+}
+#btn-last>button{
+    padding-left: 70px; 
+    padding-right: 70px; 
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    font-size: larger;
+    color: white;
+    background-color: red;
+    border: 0;
+}
