@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
 .nav-item:hover{
     background-color:red ;
 }
@@ -76,6 +81,15 @@
 .about_img>img{
     margin-left: 50px;
 }
+#abt-btn>button{
+    border: 1px solid red;
+    color: red;
+    margin-top: 20px;
+}
+#abt-btn>button:hover{
+    border: 1px solid rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+}
 .card,.card-img-top{
 border-radius: 0%;
 }
@@ -129,7 +143,7 @@ border-radius: 0%;
 input::placeholder {
     /* font-weight: bold; */
     /* opacity: 1; */
-    color: red;
+    /* color: red; */
     font-size: large;
     
 }
@@ -150,3 +164,57 @@ textarea::placeholder {
     background-color: red;
     border: 0;
 }
+#end{
+    background-color: rgb(31, 31, 31);
+    height: 500px;
+    margin-bottom: 20px;
+
+}
+#icon,#icn,#mail{
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+}
+#icon>a{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: 70px;
+    align-content: center;
+    border-radius: 50%;
+}
+#icon>a:hover{
+    font-size:30px ;
+    transition: font-size 1s;
+    background-color: white;
+}
+#icn>a,span{
+    color: white;
+}
+#mail>input{
+    background-color: white;
+    border-radius: 0%;
+    border: 1px solid red;
+    height: 70px;
+}
+#mail>a{
+    margin-left: 680px;
+    position: relative;
+    top: -85px;
+}
+#all{
+    align-content: center;
+}
+#all>h4{
+    color: white;
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+
